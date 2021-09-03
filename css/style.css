@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: "Roboto", sans-serif; 
+    background-image: url(../img/Billete.jpg);
+    background-size: 35%;
+    
+}
+
+header{
+    height: 4.5em;
+    background-color: rgba(86, 93, 75, 0.8) ;
+    text-align: center;
+    padding:0.7em 0;
+    box-shadow: 0px 0px 20px;
+    
+
+}
+
+h1{
+   font-size: 2.5rem;
+    color:azure;
+}
+
+
+.calculator{
+width: 25%;
+height: 100%;
+margin: 3em auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: rgba(88, 86, 85, 0.7);
+border: 1px solid rgba(88, 86, 85);
+border-radius: 0.3em; 
+box-shadow: 0px 0px 20px;
+
+}
+
+
+label{
+margin-top:1.5em ;
+font-size: 1.7em;
+text-align: center;
+color: whitesmoke;
+}
+
+.calculator input[type="number"]{
+width: 35%;
+margin-top: 1em;
+text-align: center;
+font-size: 1.5rem;
+border-radius: 0.2em;
+border: none;
+}
+
+.calculator input::placeholder{
+font-size: 0.8em;
+padding: 0.5em 0.2em;
+}
+
+
+h3{
+margin-top: 0.8em;
+font-weight: lighter;
+font-size: 1.7em;
+color: whitesmoke;
+}
+
+.resultado{
+    width: 35%;
+    height: 1.5em;
+    margin-top: 1em;
+    font-size: 1.5rem;
+    text-align: center;
+    color: black;
+    background-color: whitesmoke;
+    border: 1px solid rgba(88, 86, 85, 1);
+    border-radius: 0.2em;
+
+}   
+
+button{
+    width: 55%;
+    margin: 2.5em;
+    padding: 0.3em 0.2em;
+    color:whitesmoke;
+    font-size: 1.5rem;
+    background-color:rgba(214, 20, 20, 0.6);
+    border-radius: 0.2em;
+    border: none;
+}
+
+button:hover{
+    background-color:rgba(137, 185, 39, 0.6);
+    color: whitesmoke;
+}
+
