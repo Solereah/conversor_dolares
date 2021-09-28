@@ -6,7 +6,7 @@
 
 
 function conversorDolares(){
-    let dolarHoy= 102.5  
+    let dolarHoy= 104.19  
     let ingresoDolares = document.getElementById("dolares").value
     let resultado = ingresoDolares * dolarHoy 
     
@@ -15,7 +15,7 @@ function conversorDolares(){
     let rentencionGanacias = document.getElementById('ganancias')
 
     let resultadoTotal = document.getElementById('total')
-    let sumaResultados = resultado + (resultado * 30)/100 + (resultado *35)/100
+    let sumaResultados = (resultado + (resultado * 30)/100 + (resultado *35)/100).toFixed(2)
 
     if(resultado<=0){
         alert('No se puede calcular eso')
