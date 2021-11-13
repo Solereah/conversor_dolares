@@ -18,9 +18,9 @@ function conversorDolares(){
         alert('No se puede calcular eso')
         }
         else{
-            conversion.innerHTML =`$${resultado}` 
-            impuestoPais.innerHTML = `$${(resultado * 30)/100}`
-            rentencionGanacias.innerHTML = `$${(resultado *35)/100}`
+            conversion.innerHTML =`$${(resultado).toFixed(2)}` 
+            impuestoPais.innerHTML = `$${((resultado * 30)/100).toFixed(2)}`
+            rentencionGanacias.innerHTML = `$${((resultado *35)/100).toFixed(2)}`
             resultadoTotal.innerHTML = `$${sumaResultados}`
         }
 
